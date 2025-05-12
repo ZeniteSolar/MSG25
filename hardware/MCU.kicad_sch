@@ -2734,6 +2734,39 @@
 		)
 		(uuid "c52faa1a-358a-4068-97eb-ab5ef1d0c955")
 	)
+	(hierarchical_label "Vcell3_stm"
+		(shape input)
+		(at 246.38 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e5fc6f5-d493-49c7-827e-882fa776dc2f")
+	)
+	(hierarchical_label "Temp2_stm"
+		(shape input)
+		(at 246.38 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bd85ed1-b749-42cc-9d72-fda45b280218")
+	)
+	(hierarchical_label "Temp3_stm"
+		(shape input)
+		(at 246.38 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bc8e71d-a045-4f88-ba73-b3afc78d3d17")
+	)
 	(hierarchical_label "SWO"
 		(shape input)
 		(at 182.88 116.84 0)
@@ -2755,6 +2788,17 @@
 			(justify left)
 		)
 		(uuid "6fb32c26-500e-4aab-9e74-b5d148c3efec")
+	)
+	(hierarchical_label "Vcell2_stm"
+		(shape input)
+		(at 246.38 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c3ff798-e7d0-483e-879f-b8ce9a4d5800")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2811,6 +2855,17 @@
 		)
 		(uuid "a73cd443-eacc-475a-b0aa-81e280355c3a")
 	)
+	(hierarchical_label "Vcell1_stm"
+		(shape input)
+		(at 246.38 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abca1418-1662-43ed-bf9d-a0623309c7cd")
+	)
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 182.245 99.06 0)
@@ -2843,6 +2898,28 @@
 			(justify left)
 		)
 		(uuid "c3ef7120-3cb7-4bdd-8dd3-68505de614d0")
+	)
+	(hierarchical_label "Temp1_stm"
+		(shape input)
+		(at 246.38 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc026900-29dc-4c21-8bb1-8dd136a24334")
+	)
+	(hierarchical_label "Vbanco_stm"
+		(shape input)
+		(at 246.38 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de6dde18-44a8-4773-b899-d7f19ebbe9bf")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
