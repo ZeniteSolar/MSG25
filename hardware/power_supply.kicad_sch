@@ -711,12 +711,6 @@
 		(uuid "91f51ef4-f917-4cd3-bd0b-522c103aca6b")
 	)
 	(junction
-		(at 138.43 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0ff3de2-9f74-422f-8530-2a691f87c8c5")
-	)
-	(junction
 		(at 125.73 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -745,6 +739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f53ad791-96bf-4c65-b859-c04ad209dd8f")
+	)
+	(junction
+		(at 138.43 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f811c007-adfe-4a9b-9ce1-4520dd7fba24")
 	)
 	(junction
 		(at 156.21 74.93)
@@ -1825,6 +1825,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM7805_TO220")
+		(at 146.05 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94071f56-6cc8-4512-9df2-b537df0d1175")
+		(property "Reference" "U502"
+			(at 142.24 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805"
+			(at 146.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KicadZeniteSolarLibrary18:TO-220-3_Horizontal_TabDown_SMD"
+			(at 146.05 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/LM7805.pdf"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db03a0ad-df1d-4b3c-b530-b2b0c3c45b8a")
+		)
+		(pin "2"
+			(uuid "91d033fb-cbbf-4c61-b198-dddba835c367")
+		)
+		(pin "3"
+			(uuid "724edca6-35b0-4740-b60f-8be820596b7a")
+		)
+		(instances
+			(project "MSG25"
+				(path "/65407f14-222c-4907-8176-906911332438/ba43f04b-a2b5-4499-bfc6-a32c11f6989d"
+					(reference "U502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 69.85 180)
 		(unit 1)
@@ -1888,76 +1959,6 @@
 			(project "MSG25"
 				(path "/65407f14-222c-4907-8176-906911332438/ba43f04b-a2b5-4499-bfc6-a32c11f6989d"
 					(reference "C127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP1117-15")
-		(at 146.05 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a65c5290-2952-441d-85de-0a9f5cf6d829")
-		(property "Reference" "U105"
-			(at 146.05 58.6232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-5"
-			(at 146.05 60.9346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 146.05 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cd4b1d5-89fe-4ad8-b590-c04a7a2b393b")
-		)
-		(pin "2"
-			(uuid "19a95002-d75f-4c0e-9256-5bc85314cb25")
-		)
-		(pin "3"
-			(uuid "17846afa-ae00-4948-bd67-36d7bbe6538b")
-		)
-		(instances
-			(project "MSG25"
-				(path "/65407f14-222c-4907-8176-906911332438/ba43f04b-a2b5-4499-bfc6-a32c11f6989d"
-					(reference "U105")
 					(unit 1)
 				)
 			)
