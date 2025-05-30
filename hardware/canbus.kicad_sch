@@ -5,113 +5,6 @@
 	(uuid "6a766f78-707b-4933-9c93-d9ee78e2a06b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Controle-rescue:D_TVS_x2_AAC-Device"
 			(pin_names
 				(offset 1.016)
@@ -907,12 +800,6 @@
 		)
 	)
 	(junction
-		(at 111.76 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10c8102f-33be-4bf3-a586-c806057c1261")
-	)
-	(junction
 		(at 158.75 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -923,12 +810,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a2b4d41-65c0-4195-8e1f-62a3a16e90aa")
-	)
-	(junction
-		(at 111.76 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "520f5734-920e-42f4-8efa-8694365443d8")
 	)
 	(junction
 		(at 134.62 97.79)
@@ -1000,16 +881,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 107.95 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8c5448-c871-4080-a7cf-5d26dbbb2d6f")
-	)
-	(wire
-		(pts
 			(xy 147.32 95.25) (xy 158.75 95.25)
 		)
 		(stroke
@@ -1057,16 +928,6 @@
 			(type default)
 		)
 		(uuid "5f08717b-cdfd-4c4d-a03b-57d98a612768")
-	)
-	(wire
-		(pts
-			(xy 111.76 81.28) (xy 107.95 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "699b3a90-c6a6-43c9-9169-5a84555e1826")
 	)
 	(wire
 		(pts
@@ -1180,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 111.76 81.28)
+			(xy 107.95 81.28) (xy 121.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.74) (xy 111.76 78.74)
+			(xy 107.95 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1231,7 @@
 		)
 		(uuid "29957089-55b8-414d-ab86-30421e33a37e")
 	)
-	(hierarchical_label "5v"
+	(hierarchical_label "+5V"
 		(shape input)
 		(at 137.16 62.23 0)
 		(effects
@@ -2218,274 +2079,6 @@
 			(project "MSG25"
 				(path "/65407f14-222c-4907-8176-906911332438/38b1b1d6-8f8b-4bfd-9122-a84cb72019f9"
 					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 158.75 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e58ffc7-8d50-4250-bea4-a79ddbf6a0f0")
-		(property "Reference" "TP503"
-			(at 160.147 68.2533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN_H"
-			(at 160.147 70.7902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 163.83 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "762c3c0b-490f-4700-be51-c6a7ba896fe3")
-		)
-		(instances
-			(project "MSG25"
-				(path "/65407f14-222c-4907-8176-906911332438/38b1b1d6-8f8b-4bfd-9122-a84cb72019f9"
-					(reference "TP503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 158.75 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52f36df2-cb97-45c3-a7ed-09f3d5c1571b")
-		(property "Reference" "TP504"
-			(at 160.147 97.7173 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAN_L"
-			(at 160.147 100.2542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0ffc4a5-acee-444d-9091-cb09a2fd596a")
-		)
-		(instances
-			(project "MSG25"
-				(path "/65407f14-222c-4907-8176-906911332438/38b1b1d6-8f8b-4bfd-9122-a84cb72019f9"
-					(reference "TP504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c1c784e-aa61-4b93-a8a6-989fe111598e")
-		(property "Reference" "TP501"
-			(at 113.157 74.6033 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TxCAN"
-			(at 113.157 77.1402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 116.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1531853b-7de6-403a-a34d-bc1249460f9a")
-		)
-		(instances
-			(project "MSG25"
-				(path "/65407f14-222c-4907-8176-906911332438/38b1b1d6-8f8b-4bfd-9122-a84cb72019f9"
-					(reference "TP501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1ef8bdd-0588-4ddc-96cf-b8b3d064c2c4")
-		(property "Reference" "TP502"
-			(at 113.157 83.7473 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RxCAN"
-			(at 113.157 86.2842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8d52191-7046-41b4-8391-611f7c02a18e")
-		)
-		(instances
-			(project "MSG25"
-				(path "/65407f14-222c-4907-8176-906911332438/38b1b1d6-8f8b-4bfd-9122-a84cb72019f9"
-					(reference "TP502")
 					(unit 1)
 				)
 			)

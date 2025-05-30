@@ -1919,20 +1919,12 @@
 		(uuid "02df3a42-3055-4580-9cb9-a02181849343")
 	)
 	(no_connect
-		(at 167.64 137.16)
-		(uuid "07c95965-b7cd-4abd-92f3-ae6561e7705e")
-	)
-	(no_connect
 		(at 134.62 96.52)
 		(uuid "094429a1-f11d-4e59-86d3-9004e86beac6")
 	)
 	(no_connect
 		(at 134.62 109.22)
 		(uuid "16cbaa39-dd83-4f80-bd4d-16f9ea5d0392")
-	)
-	(no_connect
-		(at 167.64 124.46)
-		(uuid "173eebcf-4b76-4f9e-813c-c5363ba6f5cf")
 	)
 	(no_connect
 		(at 134.62 147.32)
@@ -1971,10 +1963,6 @@
 		(uuid "47bea7bb-69a8-4752-aa83-95fda8eee8b6")
 	)
 	(no_connect
-		(at 167.64 127)
-		(uuid "5a1b9ccb-8ce0-406e-93d1-b94a81c4d6f8")
-	)
-	(no_connect
 		(at 134.62 124.46)
 		(uuid "5e600439-22a6-442f-b1f5-66caa1094900")
 	)
@@ -1985,10 +1973,6 @@
 	(no_connect
 		(at 167.64 119.38)
 		(uuid "6ad62d66-b2b1-4e55-9efb-545dff5f1baf")
-	)
-	(no_connect
-		(at 167.64 134.62)
-		(uuid "739c23c2-1557-4995-abcc-4e4609774f21")
 	)
 	(no_connect
 		(at 167.64 86.36)
@@ -2141,6 +2125,16 @@
 			(type default)
 		)
 		(uuid "0d791eb6-f0d9-483c-aa1d-46a5b9076132")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 169.926 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127e373b-fb1f-4f8e-ae2b-77a564a51963")
 	)
 	(wire
 		(pts
@@ -2361,6 +2355,16 @@
 			(type default)
 		)
 		(uuid "5ed5a6e1-c7e4-4e17-b1e1-3017ab780da7")
+	)
+	(wire
+		(pts
+			(xy 167.64 124.46) (xy 169.926 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617a513f-9eb2-49b7-85e7-2d59bdec4e07")
 	)
 	(polyline
 		(pts
@@ -2734,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 134.62) (xy 169.926 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d268d649-6527-4fde-a4ec-074081435dd7")
+	)
+	(wire
+		(pts
 			(xy 123.825 42.545) (xy 149.86 42.545)
 		)
 		(stroke
@@ -2741,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "d35ab8c4-56f6-4ef8-9e34-822a5f0c0daa")
+	)
+	(wire
+		(pts
+			(xy 167.64 127) (xy 169.926 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da436c14-f195-473e-8a50-c606c5937bb0")
 	)
 	(wire
 		(pts
@@ -2914,6 +2938,28 @@
 		)
 		(uuid "2bd85ed1-b749-42cc-9d72-fda45b280218")
 	)
+	(hierarchical_label "I2C_2_SDA"
+		(shape input)
+		(at 169.926 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37722b12-45fe-4d7f-a17f-4dbf8a081bf2")
+	)
+	(hierarchical_label "I2C_1_SCL"
+		(shape input)
+		(at 169.926 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4698a3ee-a628-4241-9252-99d5ce14bcf7")
+	)
 	(hierarchical_label "Temp3_stm"
 		(shape input)
 		(at 169.926 81.28 0)
@@ -2947,7 +2993,7 @@
 		)
 		(uuid "6fb32c26-500e-4aab-9e74-b5d148c3efec")
 	)
-	(hierarchical_label "Vcell2_stm"
+	(hierarchical_label "Vcell1_stm"
 		(shape input)
 		(at 169.926 68.58 0)
 		(effects
@@ -2979,6 +3025,17 @@
 			(justify right)
 		)
 		(uuid "9711f00e-a317-44fd-9aa9-fab69ca1a2d7")
+	)
+	(hierarchical_label "I2C_1_SDA"
+		(shape input)
+		(at 169.926 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99f7add2-8bc9-40c6-89a3-8427e6f14c16")
 	)
 	(hierarchical_label "USART_RX"
 		(shape input)
@@ -3013,7 +3070,7 @@
 		)
 		(uuid "a73cd443-eacc-475a-b0aa-81e280355c3a")
 	)
-	(hierarchical_label "Vcell1_stm"
+	(hierarchical_label "Vcell2_stm"
 		(shape input)
 		(at 169.926 66.04 0)
 		(effects
@@ -3067,6 +3124,17 @@
 			(justify left)
 		)
 		(uuid "cc026900-29dc-4c21-8bb1-8dd136a24334")
+	)
+	(hierarchical_label "I2C_2_SCL"
+		(shape input)
+		(at 169.926 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da02adb7-6f69-4cdf-9fca-c091ad54084b")
 	)
 	(hierarchical_label "Vbanco_stm"
 		(shape input)
@@ -3235,8 +3303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 154.94 159.3834 0)
+		(property "Value" "GND"
+			(at 154.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 170.815 63.4984 0)
 			(effects
 				(font
